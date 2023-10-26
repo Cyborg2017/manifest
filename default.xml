@@ -1268,4 +1268,6 @@
   <!-- LineageOS -->
   <include name="lineage.xml" />
   <include name="pixel.xml" />
+  <!-- Derp -->
+  <include name="derp.xml" />
 </manifest>
