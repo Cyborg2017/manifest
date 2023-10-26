@@ -35,13 +35,10 @@
   <!-- External repos -->
   <!--<project path="external/faceunlock" name="external_faceunlock" remote="evo-gitlab" />-->
   <project path="external/cronet" name="external_cronet" remote="evo-gitlab" />
-  <project path="external/dtc" name="external_dtc" remote="evo" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="evo" />
   <project path="external/libcxx" name="external_libcxx" remote="evo" />
-  <project path="external/libnl" name="external_libnl" remote="evo" />
   <project path="external/mksh" name="external_mksh" remote="evo" />
   <project path="external/piex" name="external_piex" remote="evo" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="evo" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="evo" />
   <project path="external/zstd" name="external_zstd" remote="evo" />
 
@@ -74,9 +71,6 @@
 
   <!-- Hardware repos -->
   <project path="hardware/evolution/interfaces" name="hardware_evolution_interfaces" remote="evo" />
-  <project path="hardware/google/gchips" name="hardware_google_gchips" remote="evo" />
-  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="evo" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="evo" />
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="evo" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="evo" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="evo" />
@@ -152,11 +146,7 @@
   <project path="hardware/qcom-caf/sm8550/display" name="hardware_qcom-caf_sm8450_display" groups="qcom" remote="evo" />
   <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-20.0-caf-sm8550" remote="github" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="evo" />
-  <project path="hardware/ril" name="hardware_ril" remote="evo" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" />
-
-  <!-- Kernel repos -->
-  <project path="kernel/configs" name="kernel_configs" remote="evo" />
 
   <!-- Packages (Apps) repos -->
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="evo" />
@@ -199,7 +189,6 @@
 
   <!-- System repos -->
   <!--<project path="system/apex" name="system_apex" remote="evo" />-->
-  <project path="system/bpf" name="system_bpf" remote="evo" />
   <project path="system/core" name="system_core" remote="evo" />
   <project path="system/extras" name="system_extras" remote="evo" />
   <project path="system/libhidl" name="system_libhidl" remote="evo" />

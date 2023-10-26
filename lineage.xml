@@ -12,16 +12,30 @@
            revision="refs/heads/lineage-20.0" />
 
   <!-- LineageOS additions -->
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
+  <project path="external/armnn" name="android_external_armnn" remote="lineage" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/libnl" name="android_external_libnl" remote="lineage" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/webp" name="android_external_webp" remote="lineage" />
+  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" />
+  <project path="system/bpf" name="android_system_bpf" remote="lineage" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- Inline kernel build -->
@@ -42,6 +56,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage-old" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage-old" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage-old" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage-old" />
